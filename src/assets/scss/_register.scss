@@ -1,0 +1,69 @@
+.registerblock {
+  font-family: $montsFont;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-top: 75px;
+  text-align: center;
+  color: white;
+  position: relative;
+  &__headimg {
+    width: 100%;
+  }
+}
+.imgtxt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.vline {
+  border-left: 2px solid lightgray;
+  height: 100%;
+  top: 0;
+  position: relative;
+}
+.mainblock {
+  font-family: $montsFont;
+  color: $lightBlack;
+}
+.btnSign {
+  display: inline-block;
+  text-align: center !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 2px solid #575153;
+  padding: 10px 30px 10px 30px;
+  font-size: 16px;
+  &:hover {
+    background: #00c8c8;
+    color: white;
+    border-color: #00c8c8;
+  }
+}
+.resetTxt {
+  color: #00c8c8;
+  font-size: 15px;
+}
+.inputBox {
+  width: 100%;
+}
+.signup {
+  color: $lightBlack;
+}
+
+@media screen and (max-width: 990px) {
+  .vline {
+    border-top: 2px solid lightgray;
+    margin-top: 25px;
+    padding-top: 10px;
+    border-left: 0px;
+  }
+  .formblock {
+    width: 90%;
+  }
+  .homeblock {
+    &__homeimg {
+      margin-top: 75px;
+    }
+  }
+}

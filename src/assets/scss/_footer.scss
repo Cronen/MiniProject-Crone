@@ -1,0 +1,49 @@
+footer {
+  background-color: #f8f8f8;
+}
+
+.footerblock {
+  position: absolute;
+  background-color: $lightBlack;
+  font-family: $montsFont;
+  font-size: $fontSmall;
+  font-weight: lighter;
+  color: $textColorGrey;
+  width: 100%;
+  height: 45px;
+}
+.f_hl {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: $fontSmall;
+  color: $textColorGrey;
+  text-align: left;
+}
+.f_txt {
+  color: $textColorGrey;
+  text-align: left;
+  br {
+    margin-top: 5px;
+  }
+}
+.f__box {
+  display: inline-block;
+  text-align: center !important;
+  text-transform: uppercase;
+  width: 100%;
+  color: white;
+  font-size: 36px;
+  font-weight: lighter;
+  &__top{
+      font-weight: bold;
+  }
+  &--dark {
+    background-color: $lightBlack;
+  }
+  &--blue{
+    background-color: #00c8c8;
+  }
+}
+.media{
+    padding: 20px 20px 16px 20px;
+}
