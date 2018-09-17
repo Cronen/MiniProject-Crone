@@ -1,6 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
+import Product from "./views/Product.vue";
 
 Vue.use(Router);
 
@@ -22,6 +23,16 @@ export default new Router({
       path: "/register",
       name: "register",
       component: () => import("./views/Register.vue")
+    },
+    {
+      path: "/products",
+      name: "products",
+      component: () => import("./views/Products.vue")
+    },
+    {
+      path: "/product/:id",
+      name: "product",
+      component: Product
     }    
   ]
 });

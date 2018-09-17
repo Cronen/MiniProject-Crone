@@ -2,7 +2,7 @@
 <div>
     <div class="row homeblock">
         <img src="@/assets/img/homeimg.png" alt="homeimg" class="homeblock__homeimg">
-        <div class="homeblock__shopbtn">SHOP MEN'S COLLECTION</div>
+        <router-link to="/products" class="homeblock__shopbtn text-nowrap">SHOP MEN'S COLLECTION</router-link>
     </div>
     <div class="container-fluid midnavBlock">
         <hr>

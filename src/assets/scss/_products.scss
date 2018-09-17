@@ -1,0 +1,16 @@
+.productBlock{
+    margin-top: 75px;
+}
+.proitem{
+    a.visited,
+    a {
+      color: black;
+    }
+    a:hover {
+      color: #00c8c8;
+      text-decoration: none;
+    }
+    &__img{
+        max-height: 500px;
+    }
+}

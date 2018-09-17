@@ -1,0 +1,25 @@
+{
+  "count": 3,
+  "products": [
+    {
+      "id": 1,
+      "title": "Product 1",
+      "imgUrl": "http://media.araca.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/w/k/wkd-painted-witches-dress-frt2.png"
+    },
+    {
+      "id": 2,
+      "title": "Product 2",
+      "imgUrl": "https://ae01.alicdn.com/kf/HTB1fhWVkeKAUKJjSZFzq6xdQFXaT/2018-Spring-New-New-Fashion-Casual-Slim-Fit-Men-Print-Shirt-High-Quality-Mens-Dress-Shirts.jpg_640x640.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Product 3",
+      "imgUrl": "https://cdn.shopify.com/s/files/1/0543/5737/products/OD-68_Womens_In_Return_Shirt_Model_1024x1024.png?v=1527227569"
+    },
+    {
+      "id": 4,
+      "title": "Product 4",
+      "imgUrl": "http://www.printshorty.com/wp-content/uploads/2015/07/Long-sleeve-t-shirt-model_8black.png"
+    }
+  ]
+}

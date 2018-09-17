@@ -6,3 +6,7 @@ $lightBlack: #333333;
 $white: #ffffff;
 $textColorGrey: rgb(153, 153, 153);
 
+@mixin FontAndColor($font, $txtcolor: $textColorGrey){
+    font-family: $font;
+    color: $txtcolor;
+}

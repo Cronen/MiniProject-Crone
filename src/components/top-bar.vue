@@ -1,6 +1,6 @@
 <template>
 <header class="container-fluid headblock">
-    <div class="headblock row">
+    <div class="headblock row text-nowrap">
         <div class="col-md-2"></div>
         <div class="col-md-1 headblock__item">Currency: GP</div>
         <div class="col-md-3"></div>
@@ -20,13 +20,17 @@
     </div>
     <div class="row m-4 navigate">
         <div class="col-md-1"></div>
-        <div class="col-md-1">
-            <router-link to="/"><img src="@/assets/img/logo.png" alt="logo"/></router-link>
+        <div class="col-md-2">
+            <router-link to="/"><img src="@/assets/img/logo.png" alt="logo"></router-link>
         </div>
-        <div class="col-md-3"></div>
+        <div class="col-md-2"></div>
         <div class="col-md-5 navigate__item float-right row">
-            <p class="col">Mens</p>
-            <p class="col">womens</p>
+            <p class="col navigation__item--link">
+                <router-link to="/products">mens</router-link>
+            </p>
+            <p class="col navigation__item--link">
+                <router-link to="/products">womens</router-link>
+            </p>
             <p class="col navigation__item--link">
                 <router-link to="/brand">the brand</router-link>
             </p>
